@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <title>Upload File</title>
+    <h1 style="text-align: center">EECS 442 Final Project</h1>
+    <form method=post enctype=multipart/form-data style="margin: 0 auto; width:400px;">
+         <input type=file name=photo>
+         <input type=submit value=Upload>
+    </form>
+    </br>
+    <div class="h4" style="text-align: center">Upload a photo and we'll show you the celebrity you look most like!</div>
+    </br>
+    {% if original %}
+        <div class="row">
+            <div class="column" style="float:left;margin-right:5px;margin-left: 500px;">
+                <img src=/scratch_impl/data/uploads/{{original}} style="height:400px; width:400px">
+                <div class="h2" style="text-align: center">Original</div>
+            </div>
+            <div class="column" style="float:left;margin-right:5px">
+                <img src=/scratch_impl/data/celebs/{{celebrity}} style="height:400px; width:400px">
+                <div class="h2" style="text-align: center">Celebrity</div>
+            </div>
+      </div>
+    {% endif %}
+</html>
