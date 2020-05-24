@@ -1,5 +1,7 @@
 # 442 Course Project - Celebrity Face Matcher
 
+Note: Project recently migrated from GitLab and commit history was lost
+
 This project implements the Haar Feature Cascade face detection system described
 in the Viola-Jones reserach paper. It then combines face detection with auto-cropping
 and then feeds the results into a Keras neural network that outputs the celebrity
