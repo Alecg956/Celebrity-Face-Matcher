@@ -1,4 +1,4 @@
-# 442 Course Project - Celebrity Face Matcher
+# Celebrity Face Matcher
 
 Note: Project recently migrated from GitLab and commit history was lost
 
